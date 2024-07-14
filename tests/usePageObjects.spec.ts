@@ -41,3 +41,9 @@ test('parameterized test 2', async ({page}) => {
 
   await pm.onDatepickerPage().selectDatepickerWhithRangeFromToday(5, 10)
 })
+
+test.only('testing with argos ci', async ({page}) => {
+  const pm = new PageManager(page)
+  await pm.navigateTo().formLayoutsPage()
+  await pm.navigateTo().datepickerPage()
+})
