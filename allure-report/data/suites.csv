@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Jul 11 10:47:35 IDT 2024","Thu Jul 11 10:47:38 IDT 2024","3726","chromium","tests/usePageObjects.spec.ts","","","","parameterized test 2",""
+"passed","Thu Jul 11 10:47:30 IDT 2024","Thu Jul 11 10:47:33 IDT 2024","2831","chromium","tests/usePageObjects.spec.ts","","","","navigate to form page",""
+"passed","Thu Jul 11 10:47:34 IDT 2024","Thu Jul 11 10:47:35 IDT 2024","1137","chromium","tests/usePageObjects.spec.ts","","","","parameterized test",""

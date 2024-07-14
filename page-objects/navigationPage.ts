@@ -1,13 +1,8 @@
-import { Page, Locator } from "@playwright/test"
+import { Page } from "@playwright/test"
 import { HelperBase } from "./helperBase"
 
 export class NavigationPage extends HelperBase{
 
-  readonly formLayoutsManuItems: Locator
-  readonly datepickerMenuItems: Locator
-  readonly smartTableMenuItems: Locator
-  readonly toastrMenuItems: Locator
-  readonly tooltipMenuItems: Locator
 
   constructor(page: Page) {
     super(page) 
